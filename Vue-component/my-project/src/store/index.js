@@ -30,7 +30,6 @@ export default new Vuex.Store({
                 .then(r => r.data)
                         .then(results => {
                             commit('setResults', results);
-
                         })
             console.log(this.state.results);
                     // response.data.forEach(data => {
